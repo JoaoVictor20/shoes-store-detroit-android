@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="90">
+
+    <Button
+        android:id="@+id/button_cliente_limpar"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="2dp"
+        android:layout_weight="30"
+        android:backgroundTint="#1AB820"
+        android:text="Limpar" />
+
+    <Button
+        android:id="@+id/button_cliente_salvar"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="2dp"
+        android:layout_weight="30"
+        android:backgroundTint="#0DA4DF"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/button_cliente_excluir"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="2dp"
+        android:layout_weight="30"
+        android:backgroundTint="#DF0D0D"
+        android:text="Deletar" />
+
+</LinearLayout>

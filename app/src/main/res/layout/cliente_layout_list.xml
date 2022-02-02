@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="90">
+
+    <TextView
+        android:id="@+id/codigo_item_list"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:backgroundTint="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/nome_item_list"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="50"
+        android:backgroundTint="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/telefone_item_list"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="30"
+        android:backgroundTint="#000000"
+        android:textSize="20dp" />
+
+</LinearLayout>
